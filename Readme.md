@@ -1,18 +1,23 @@
  
-## Módulo: Nombre del modulo
+## Módulo: Backend Java
 
-### OBJETIVO 
- - Agrega lo que van a aprender en el modulo
+### Objetivo  
+En este módulo conoceras como usar java para desarrollar el backend de aplicaciones usando las facilidades del lenguaje.
 
- ### ORGANIZACIÓN DE MÓDULO 
+### Antes de comenzar
+Descarga e instala Intellij IDEA.
+
+### [Descargar IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
+![](idea.png)
+
+### Organización del módulo
  
- - [Sesión 1](): 
- - [Sesión 2](): 
- - [Sesión 3](): 
- - [Sesión 4](): 
- - [Sesión 5](): 
- - [Sesión 6](): 
- - [Sesión 7](): 
- - [Sesión 8]():
-
-
+ - [Sesión 1](): Introducción a Java Backend
+ - [Sesión 2](): Java EE Profiles y Java EE Services y API's
+ - [Sesión 3](): Java EE App Servers
+ - [Sesión 4](): Desarrollo de aplicaciones JEE Modernas y Contenedores JEE
+ - [Sesión 5](): JavaBeans, Anotaciones y Logging
+ - [Sesión 6](): JNDI y tipos de EJBs
+ - [Sesión 7](): EJB stateless y singleton
+ - [Sesión 8](): EJB stateful y exposición como servicio
