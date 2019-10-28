@@ -1,11 +1,11 @@
 
 `Desarrollo Web` > `Backend Java`
 
-## Titulo de la Sesion 
+## EJB stateful y exposición como servicio 
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Que el alumno aprenda a exponer como servicios aplicaciones para que otras partes de la aplicación u otras aplicaciones consuman datos y servicios.
 
 #### ORGANIZACION DE LA CLASE 
 

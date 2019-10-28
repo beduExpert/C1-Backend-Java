@@ -1,11 +1,11 @@
 
 `Desarrollo Web` > `Backend Java`
 
-## Titulo de la Sesion 
+## EJB stateless y singleton
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Que el alumno conozca al finalizar la sesion tipos de EJBs  comunes
 
 #### ORGANIZACION DE LA CLASE 
 

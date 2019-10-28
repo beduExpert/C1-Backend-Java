@@ -1,11 +1,11 @@
 
 `Desarrollo Web` > `Backend Java`  
 
-## Titulo de la Sesion 
+## Java EE Profiles y Java EE Services y API's
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Comprender las diferentes utilidades que nos ofrece java para el desarrollo de aplicaciones.
 
 #### ORGANIZACION DE LA CLASE 
 

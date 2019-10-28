@@ -1,11 +1,11 @@
 
 `Desarrollo Web` > `Backend Java`
 
-## Titulo de la Sesion 
+## Desarrollo de aplicaciones JEE Modernas y Contenedores JEE 
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Comprender que los contenedores son la base de la inyección de dependencias, un paradigma muy comun en el backend cuando usas Java.
 
 #### ORGANIZACION DE LA CLASE 
 

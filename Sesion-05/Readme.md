@@ -1,11 +1,11 @@
 
 `Desarrollo Web` > `Backend Java`
 
-## Titulo de la Sesion 
+## JavaBeans, Anotaciones y Logging 
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Que el alumno al finalizar la sesion aprenda como los JavaBeans se manejan mediante anotaciones y su uso es fundamental para el desarrollo de aplicaciones que usan el paradigma de inyección de dependencias.
 
 #### ORGANIZACION DE LA CLASE 
 

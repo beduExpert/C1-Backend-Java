@@ -1,11 +1,11 @@
 
 `Desarrollo Web` > `Backend Java`
 
-## Titulo de la Sesion 
+##  JNDI y tipos de EJBs 
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Que el alumno conozca al finalizar la sesion los diferentes tipos de EJBs nos ayudará a elegir el mas adecuado a la hora de desarrollar aplicaciones.
 
 #### ORGANIZACION DE LA CLASE 
 

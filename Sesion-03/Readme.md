@@ -1,11 +1,11 @@
 
 `Desarrollo Web` > `Backend Java`
 
-## Titulo de la Sesion 
+## Java EE App Servers
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Introducirse a la filosofia de java para el desarrollo de aplicaciones empresariales. 
 
 #### ORGANIZACION DE LA CLASE 
 
