@@ -1,11 +1,11 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+`Desarrollo Web` > `Backend Java`  
 
-## Titulo de la Sesion 
+##  Introducción a Java Back end
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Entender el proposito del backend y sus diferencias con otros roles en el desarrollo de aplicaciones.
 
 #### ORGANIZACION DE LA CLASE 
 
