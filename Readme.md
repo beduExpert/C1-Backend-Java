@@ -1,11 +1,14 @@
- 
+`Desarrollo Web` > `Backend Java`
+
 ## Módulo: Backend Java
 
+Bienvenidos al curso de Programación de BackEnd con Java.
+
 ### Objetivo  
-En este módulo conoceras como usar java para desarrollar el backend de aplicaciones usando las facilidades del lenguaje.
+En este módulo conoceras de manera pertinente las tecnologías para desarrollar la infraestructura de una aplicación básica en Java, con la finalidad de tener una correcta implementación.
 
 ### Antes de comenzar
-Descarga e instala Intellij IDEA.
+Primero deberás **Intellij IDEA** en tu equipo. Solo abre el link y da click en descargar.
 
 ### [Descargar IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
