@@ -1,28 +1,21 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Spring Boot y Gradle
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Crear un proyecto de Spring Boot usando Maven como manejador de dependencias.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Tener IntelliJ IDEA instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Visitar [Spring Initializr](https://start.spring.io/) y seleccionar las mismas opciones que se muestran en la siguiente figura.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+![Spring Initializr](springmaven.png)
 
-![imagen](https://picsum.photos/200/300)
+Una vez descargado el proyecto podemos descomprimirlo y abrirlo en IntelliJ IDEA. Un archivo importante a notar es el archivo `pom.xml` el cual maneja la configuración de Maven. En este archivo se manejan las dependencias que usará nuestro proyecto así como la versión de java que usaremos.
 
+![pom.xml](pom.png)
 
