@@ -1,28 +1,25 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Ejemplo Spring Initializr
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Crear un proyecto de spring boot usando spring initializr
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Tener un IDE instalado, de preferencia IntelliJ IDEA.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Visitar [Spring Initializr](https://start.spring.io/) y explorar las opciones que nos ofrece, por ahora usaremos las opciones por defecto.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Cuando terminemos de explorar podemos presionar el boton `generate` para descargar el proyecto de spring boot.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+![Spring Initializr](initializrdefault.png)
 
-![imagen](https://picsum.photos/200/300)
+Una vez descargado el archivo lo podemos descomprimir y tendremos la siguiente estructura de archivos:
 
+![Demo](demotree.png)
 
+Y podemos abrir el proyecto en IntelliJ IDEA con la opción `open`. Una vez abierto esperamos a que el IDE baje las dependencias (puede tardar mucho dependiendo de la conexión de internet). Cuando termine de bajar podemos correr el proyecto por medio del menu `Run > Run 'DemoApplication'` (O con `Shift-F10`).
+
+![Demo project Intellij IDEA](demoidea.png)
