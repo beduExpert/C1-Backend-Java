@@ -2,7 +2,7 @@
 
 ### OBJETIVO
 
-- Crear un proyecto de spring boot usando spring initializr
+- Crear un proyecto de Spring Boot usando Spring Initializr
 
 #### REQUISITOS
 
@@ -12,7 +12,7 @@
 
 Visitar [Spring Initializr](https://start.spring.io/) y explorar las opciones que nos ofrece, por ahora usaremos las opciones por defecto.
 
-Cuando terminemos de explorar podemos presionar el boton `generate` para descargar el proyecto de spring boot.
+Cuando terminemos de explorar podemos presionar el boton `generate` para descargar el proyecto de Spring boot.
 
 ![Spring Initializr](initializrdefault.png)
 
