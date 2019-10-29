@@ -1,29 +1,23 @@
- 
+## Spring Initializr
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### Objetivo 
 
-### OBJETIVO 
-
-- Lo que esperamos que el alumno aprenda 
+Crear un proyecto de Spring Boot usando [Spring Initializr](https://start.spring.io/) con las siguientes caracteristicas:
+- Manejador de dependencias: Gradle
+- Lenguaje de programación Java 11
+- Version de Spring Boot: 2.2.0
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+IntelliJ IDEA instalado y funcionando.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones adecuadas, descargar el proyecto e importarlo a IntelliJ IDEA.
+
 
 <details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+        <summary>Solución</summary>
+        <p>Ver el archivo [solucion.zip](solucion.zip)</p>
+</details>
 
