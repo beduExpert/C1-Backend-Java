@@ -15,9 +15,7 @@ IntelliJ IDEA instalado y funcionando.
 
 Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones adecuadas, descargar el proyecto e importarlo a IntelliJ IDEA.
 
+#### Solución
 
-<details>
-        <summary>Solución</summary>
-        <p>Ver la carpeta [solucion]</p>
-</details>
+Consultar la carpeta [solucion]
 
