@@ -1,4 +1,4 @@
-## Spring Boot y Gradle
+## Spring Boot y Maven
 
 ### OBJETIVO
 

@@ -1,28 +1,20 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Spring Boot y Gradle
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Hacer un proyecto de Spring Boot usando Gradle como manejador de dependencias.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Tener IntelliJ IDEA instalado y funcionando.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Visitar [Spring Initializr](https://start.spring.io/) y seleccionar las mismas opciones que se muestran en la siguiente figura.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![Spring Initializr](springgradle.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+Una vez descargado el proyecto podemos descomprimirlo y abrirlo en IntelliJ IDEA. Un archivo importante a notar es el archivo [build.gradle](demo/build.gradle) el cual maneja la configuración de Gradle. En este archivo se manejan las dependencias que usará nuestro proyecto así como la versión de java que usaremos. El archivo [settings.gradle](demo/settings.gradle) tambien es importante y maneja los sub-proyectos de nuestro proyecto pero el IDE se encarga de actualizarlo en la mayoria de los casos de uso normales.
 
-![imagen](https://picsum.photos/200/300)
-
+![settings.gradle](settingsgradle.png)
 
