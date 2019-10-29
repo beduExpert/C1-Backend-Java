@@ -1,28 +1,22 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Tareas programadas con Spring
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Hacer que tareas se ejecuten cada cierto tiempo usando Spring.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Tener instalado y configurado IntelliJ Idea y crear un proyecto con Spring Initializr usando `gradle`. De ahora en adelante usaremos gradle como manejador de dependencias.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Una vez creado un proyecto con Spring Initializr vamos a empezar a explorar las facilidades que nos ofrece Spring y Spring Boot para desarrollar aplicaciones de backend. Empezaremos con algo sencillo: hacer que Spring ejecute una tarea cada cierto tiempo.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Agregaremos una dependencia para hacer logging `slf4j-api`, para esto hay que referirnos a los retos anteriores o a [build.gradle](tareas-programadas/build.gradle) (linea 17)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+Empecemos creando una nueva clase en `src/main/java/com.example.tareasprogramadas` llamada [TareasProgramadas.java](tareas-programadas/src/main/java/com/example/tareasprogramadas/TareasProgramadas.java)
 
-![imagen](https://picsum.photos/200/300)
+Por ultimo agregaremos una notación a nuestra aplicación para activar la planificación de tareas. [TareasProgramadasApplicacion.java](tareas-programadas/src/main/java/com/example/tareasprogramadas/TareasProgramadasApplication.java)
 
+![TareasProgramadasApplication.java](tareasprogramadas.png)
 
