@@ -18,6 +18,6 @@ Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones 
 
 <details>
         <summary>Solución</summary>
-        <p>Ver el archivo [solucion.zip](solucion.zip)</p>
+        <p>Ver el archivo solucion.zip</p>
 </details>
 
