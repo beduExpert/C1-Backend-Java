@@ -15,9 +15,7 @@ IntelliJ IDEA instalado y funcionando.
 
 Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones adecuadas, descargar el proyecto e importarlo a IntelliJ IDEA.
 
+#### Solución
 
-<details>
-        <summary>Solución</summary>
-        <p>Ver el archivo solucion.zip</p>
-</details>
+Consultar la carpeta [solucion](https://github.com/beduExpert/C1-Backend-Java/tree/master/Sesion-01/Reto-01/solucion)
 
