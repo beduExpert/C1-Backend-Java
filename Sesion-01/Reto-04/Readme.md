@@ -14,5 +14,5 @@ Modificar el ejemplo 4 para cumplir con el objetivo.
 
 #### Solución
 
-Consultar la carpeta [solucion][solucion]
+Consultar la carpeta [solucion](solucion)
 
