@@ -2,9 +2,9 @@
 
 ### Objetivo 
 
-Crear un proyecto de Spring Boot usando [Spring Initializr](https://start.spring.io/) con las siguientes caracteristicas:
+Crear un proyecto de Spring Boot usando [Spring Initializr](https://start.spring.io/) con las siguientes características:
 - Manejador de dependencias: Gradle
-- Lenguaje de programación Java 11
+- Lenguaje de programación: Java 11
 - Version de Spring Boot: 2.2.0
 
 #### REQUISITOS 

@@ -5,10 +5,10 @@
 Agregar dependencias a nuestro proyecto usando Gradle y conocer los starters de Spring Boot.
 
 Al final necesitamos un proyecto con las siguientes características:
--Manejador de dependencias: Gradle
--Lenguaje de programación: Java 11
--Versión de Spring Boot: 2.2.0
--Usar las dependencias: Lombok, Spring Web, Spring Data JDBC
+- Manejador de dependencias: Gradle
+- Lenguaje de programación: Java 11
+- Versión de Spring Boot: 2.2.0
+- Usar las dependencias: Lombok, Spring Web, Spring Data JDBC
 
 #### Requisitos 
 
