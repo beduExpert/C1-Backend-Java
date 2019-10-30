@@ -1,29 +1,23 @@
- 
+## Usar dependencias con Gradle
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### Objetivo 
 
-### OBJETIVO 
+Agregar dependencias a nuestro proyecto usando Gradle y conocer los starters de Spring Boot.
 
-- Lo que esperamos que el alumno aprenda 
+Al final necesitamos un proyecto con las siguientes características:
+-Manejador de dependencias: Gradle
+-Lenguaje de programación: Java 11
+-Versión de Spring Boot: 2.2.0
+-Usar las dependencias: Lombok, Spring Web, Spring Data JDBC
 
-#### REQUISITOS 
+#### Requisitos 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+IntelliJ IDEA instalado y funcionando.
 
-#### DESARROLLO
+#### Desarrollo
 
-Agrega las instrucciones generales del ejemplo o reto
+Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones adecuadas, descargar el proyecto e importarlo a IntelliJ IDEA.
 
-<details>
+#### Solución
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+Consultar la carpeta [solucion](/solucion)
