@@ -1,29 +1,18 @@
- 
+## Tareas programadas
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### Objetivo 
 
-### OBJETIVO 
+Agregar una tarea planificada que se ejecute cada 3 segundos y modificar la tarea planificada que ya existe para que se ejecute cada 10 segundos.
 
-- Lo que esperamos que el alumno aprenda 
+#### Requisitos 
 
-#### REQUISITOS 
+El ejemplo 4 funcionando.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### Desarrollo
 
-#### DESARROLLO
+Modificar el ejemplo 4 para cumplir con el objetivo.
 
-Agrega las instrucciones generales del ejemplo o reto
+#### Solución
 
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Consultar la carpeta [solucion][solucion]
 

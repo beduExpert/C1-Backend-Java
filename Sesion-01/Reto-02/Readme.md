@@ -20,5 +20,5 @@ Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones 
 
 #### Solución
 
-Consultar la carpeta [solucion](/solucion)
+Consultar la carpeta [solucion](solucion)
 

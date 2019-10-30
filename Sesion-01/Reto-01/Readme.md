@@ -17,5 +17,5 @@ Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones 
 
 #### Solución
 
-Consultar la carpeta [solucion](https://github.com/beduExpert/C1-Backend-Java/tree/master/Sesion-01/Reto-01/solucion)
+Consultar la carpeta [solucion](solucion)
 
