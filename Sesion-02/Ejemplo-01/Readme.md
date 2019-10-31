@@ -6,11 +6,11 @@
 
 #### REQUISITOS
 
-Un proyecto de Spring Boot y Gradle como los que se crearon en la sesion 1
+Un proyecto de Spring Boot y Gradle como los que se crearon en la sesión 1.
 
 #### DESARROLLO
 
-Visitar [Maven Repository](https://mvnrepository.com/) y buscar `gson` la cual es una libreria para manejar JSON. Despues de seleccionar alguna version en especifico llegamos a algo similar a la siguiente imagen.
+Visitar [Maven Repository](https://mvnrepository.com/) y buscar `gson` la cual es una libreria para manejar JSON. Despues de seleccionar alguna version en específico llegamos a algo similar a la siguiente imagen.
 
 ![GSON](gsonmaven.png)
 

@@ -1,28 +1,20 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Ejemplo JDBC Starter
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Conocer los starters de Spring Boot, en particular el starter de JDBC que nos ayudara en proximas sesiones para manejar bases de datos relacionales.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Un proyecto de Spring Boot como los que se crearon en la sesión 1.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Visitar [Spring Initializr](https://start.spring.io/) y crear un proyecto agregando las dependencias `JDBC API` y `H2 Database` ya sea por medio de la busqueda o seleccionandolas en la lista.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![Spring Initializr](jdbcstarter.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+Descargamos el proyecto y lo abrimos en IntelliJ IDEA.
 
-![imagen](https://picsum.photos/200/300)
-
+![IntelliJ IDEA](ideajdbcstarter.png)
 
