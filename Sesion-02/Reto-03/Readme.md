@@ -1,29 +1,20 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Propiedades de configuración
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Agregar una propiedad de configuración con el nombre `miclavesupersecreta` con el valor `misuperpassword`.
+- Usar la propiedad de configuración que agregamos e imprimirla.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+Un proyecto de Spring Boot como los que se crearon en la sesión 1.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Modificar el código del ejemplo 3 para cumplir con los objetivos.
 
-<details>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+#### Solución
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Consultar en la carpeta [solucion](solucion) los archivos de `application.properties` y `DemoApplication.java`
 

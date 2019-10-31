@@ -1,29 +1,22 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Reto Web Starter 
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Agregar web starter como dependencia a nuestro proyecto con Spring Initializr.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+IntelliJ IDEA funcionando.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Visitar [Spring Initializr](https://start.spring.io/), seleccionar las opciones adecuadas, descargar el proyecto e importarlo a IntelliJ IDEA.
 
-<details>
+#### Solución
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+Consultar la carpeta [solucion](solucion)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
+Notemos que al correr la aplicación de Spring Boot levantará un servidor Tomcat por nosotros en el puerto 8080 el cual usaremos en proximas sesiones.
 
-![imagen](https://picsum.photos/200/300)
+![Tomcat](tomcat.png)
 
