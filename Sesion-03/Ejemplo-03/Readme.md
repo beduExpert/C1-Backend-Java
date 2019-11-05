@@ -1,28 +1,22 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Pruebas en spring boot
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Hacer una prueba básica usando junit con spring boot.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Un proyecto de spring boot creado con spring initializr con la dependencia de Spring Web.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Despues de descargar el proyecto de spring boot creado con initializr notemos que por defecto ya incluye una dependencia del starter de spring boot para test.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![JUnit](junit.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+También notemos que por defecto tenemos una clase para pruebas en `demo/src/test/java/com/example/demo/DemoApplicationTests.java` pero vamos a crear nuestra propia clase en la misma ruta pero con el nombre `ControladorTests.java`.
 
-![imagen](https://picsum.photos/200/300)
+Creamos una clase que vamos a probar [Controlador.java](demo/src/main/java/com/example/demo/Controlador.java) y vamos a usar la anotación `@Test` para decirle a JUnit que nuestra función es un test como vemos en [ControladorTests.java](demo/src/main/java/com/example/demo/ControladorTests.java) una vez hecha la prueba podemos correrla con el IDE usando `Shift-F10`.
 
+![Test results](tests.png)
 
