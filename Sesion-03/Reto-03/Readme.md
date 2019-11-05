@@ -1,29 +1,17 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Pruebas en spring boot
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Hacer un endpoint nuevo que responda a peticiones `GET` a la ruta `/adios` que mande un mensaje `adios` y agregar una prueba para este endpoint.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El ejemplo 3 funcionando.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Modificar el ejemplo 3 para agregar un metodo que responda peticiones `GET` a la ruta `/adios` y regrese una cadena de texto `adios` y agregar un test en la clase `ControladorTests.java` que confirme que el metodo regrese lo que esperamos.
 
-<details>
+#### Solución
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+Ver la carpeta [solucion](solucion)
