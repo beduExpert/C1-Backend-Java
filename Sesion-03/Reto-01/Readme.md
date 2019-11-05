@@ -1,29 +1,19 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Inyección de dependencias
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Hacer una clase y registrarla en el contenedor de Spring.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+Comprender el ejemplo 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Hacer una clase nueva que implemente la interface `MiInterface.java` y hacer que el bean que registramos en nuestra aplicación [DemoApplication.java](demo/DemoApplication.java) regrese una clase de este tipo.
 
-<details>
+#### Solución
+Ver el proyecto [solucion](solucion)
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+![miotraclase](miotraclase.png)
 

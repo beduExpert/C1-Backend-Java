@@ -16,3 +16,4 @@ Empezamos por definir una interface [MiInterface.java](demo/MiInterface.java) y 
 
 Con esto podemos decirle a nuestra aplicación que registre un `Bean` del tipo `MiInterface` y cada vez que necesitemos una clase de tipo `MiInterface` podemos usar Spring para que nos provea de una instancia de este tipo como podemos ver en [NecesitoUnaClase.java](demo/NecesitoUnaClase.java)
 
+![miclase](miclase.png)
