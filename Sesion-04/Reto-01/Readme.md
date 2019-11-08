@@ -1,29 +1,19 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Anotaciones de Spring
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Agregar un campo a las clases `Camion`, `Moto` y  `Taxi` llamado `llantas` con clase `LLantas.java` y hacer que spring inyecte ese campo.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. El código del ejemplo 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Modificar el código del ejemplo 1 para cumplir con el objetivo.
 
-<details>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+#### Solución
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 
