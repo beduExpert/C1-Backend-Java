@@ -1,28 +1,19 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Anotaciones de Spring
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender las anotaciones mas utilizadas de spring
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Un proyecto de spring boot creado con spring initializr
+2. Conocer el concepto de anotaciones en Java
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Creamos 3 clases `Camion`, `Moto` y `Taxi` las cuales necesitan una clase `Motor`. En cada una usamos un metodo distinto de inyección de dependencias y usamos la anotación `@Autowired` para decirle al contenedor de Spring que la provea.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Usamos una clase de configuración que lo unico que hará es registrar beans en el contenedor de Spring `CarFactory` y le decimos a Spring sobre ella con la anotación `@Configuration`. Para registrar un bean en el contenedor de spring usamos la anotación `@Bean`.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
-
-![imagen](https://picsum.photos/200/300)
-
+![Anotaciones](anotaciones.png)
 
