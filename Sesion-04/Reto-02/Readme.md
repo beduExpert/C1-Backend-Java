@@ -1,29 +1,20 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Lombok
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Usar lombok para entender el trabajo que nos puede ahorrar.
+
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. El ejemplo 2.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+- Modificar las clases del ejemplo 2 agregandoles un campo de tipo entero.
+- Modificar los setters/getters/constructores en cada clase para que funcionen con el nuevo campo.
 
-<details>
+#### Solución
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 
