@@ -1,28 +1,22 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Lombok
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Conocer lombok
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Un proyecto de spring boot creado con spring initializr con Lombok como dependencia
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Lombok es un procesador de anotaciones que nos ahorra muchas cosas repetitivas, veamoslo con un ejemplo.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+La primera vez que abrimos el proyecto en el IDE nos pedira que activemos el soporte para procesadores de anotaciones.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+![Error](error.png)
 
-![imagen](https://picsum.photos/200/300)
+![Activar](enable.png)
 
+Una vez activado veamos los archivos [ConLombok.java](demo/src/main/java/com/example/demo/ConLombok.java) y [SinLombok.java](demo/src/main/java/com/example/demo/SinLombok.java) ambos archivos son equivalentes para nuestros propositos pero usando lombok nos ahorramos muchas cosas.
 
