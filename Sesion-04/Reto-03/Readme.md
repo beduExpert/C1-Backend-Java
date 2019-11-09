@@ -1,29 +1,31 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Logeo con lombok
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Hacer uso de lombok para logear y personalizar el formato del logging.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El ejemplo 3.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+- Agrega un mensaje de debug
+- Agrega un mensaje de error
 
-<details>
+- Cambia el archivo [logback.xml](demo/src/resources/logback.xml) para que use rojo en lugar de verde.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+Ejecuta el programa, en este momento deberian mostrarse 3 mensajes de logeo. (Hay que buscarlos bien entre tanta información)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
+- Cambia el archivo [logback.xml](demo/src/resources/logback.xml) para que use rojo en lugar de verde.
 
-![imagen](https://picsum.photos/200/300)
+![Mensajes](debugmode.png)
+
+- Cambia el archivo [logback.xml](demo/src/resources/logback.xml) para que que muestre un nivel de logeo `INFO`, esto hará que los mensajes de nivel `DEBUG` ya no se muestren.
+
+![INFO](infomode.png)
+
+#### Solución
+
+Ver la carpeta [solucion](solucion)
 

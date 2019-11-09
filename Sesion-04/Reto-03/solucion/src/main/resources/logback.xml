@@ -1,0 +1,12 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%highlight(%-5level) %red(%d{HH:mm:ss.SSS}) %yellow([%thread]) %blue(\(%class{0}.java:%line\)) %msg%n</pattern>
+        </encoder>
+    </appender>
+    <logger name="com.example" level="INFO"></logger>
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
