@@ -1,28 +1,20 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## La base de datos en pruebas
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Usar una base diferente en pruebas
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+El codigo del ejemplo 2 agregando la dependencia de `H2 Database` en el `application.properties`
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usar la misma base de datos que se usa para la aplicación y para las pruebas no es recomendable por muchas razones así que usaremos una base de datos ligera y desechable para nuestras pruebas. En este caso usaremos H2 para pruebas y PostgreSQL para la aplicación.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Comenzando con el ejemplo 2 como base agregamos la dependencia a H2 pero sólo para pruebas. Esto lo logramos modificando el archivo [build.gradle](build.gradle)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+![gradle](deps.png)
 
-![imagen](https://picsum.photos/200/300)
-
+Una vez que gradle este listo agregaremos archivos [application.properties](demo/src/test/resources/application.properties), [data.sql](demo/src/test/resources/data.sql) y [schema.sql](demo/src/test/resources/schema.sql) en el directorio [demo/src/test/resources/](demo/src/test/resources/). Estos archivos toman prioridad sobre los archivos de la aplicación cuando corremos las pruebas y de esta manera no modificaremos por accidente los datos de la aplicación.
 
