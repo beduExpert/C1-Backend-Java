@@ -1,28 +1,31 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## JDBC con PostgreSQL
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Usar una base de datos PostgreSQL con spring.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Tener PostgreSQL configurando y corriendo.
+
+Un proyecto de spring boot creado con initializr usando las dependencias `JDBC API`, `PostgreSQL Driver` y `Lombok`.
+
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Ahora usaremos un sistema de bases de datos mas robusto `PostgreSQL`, para esto es necesario primero instalarlo en tu plataforma y notar el puerto en el que corre, el usuario y la contraseña.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Vamos a usar estos datos para decirle a spring sobre el servidor de PostgreSQL en el archivo [configuration.properties](demo/src/main/resources/application.properties).
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+Una vez abierto el proyecto en nuestro IDE podemos definir el esquema de la base de datos en el archivo [schema.sql](demo/src/main/resources/schema.sql) e insertar datos con el archivo [data.sql](demo/src/main/resources/data.sql). Podemos configurar esto poniendo el nivel del logeo en `DEBUG` en el archivo [application.properties](demo/src/main/resources/application.properties)
 
-![imagen](https://picsum.photos/200/300)
+Una vez configurada la base de datos podemos hacer uso de ella mediante JdbcTemplate. Antes de eso hacemos una interface para que nuestra aplicación no dependa de una implementación en particular y haremos una implementación de esta interface usando JdbcTemplate como podemos ver en [data](demo/src/main/java/com/example/demo/data).
 
+Para trabajar con JdbcTemplate de manera comoda creamos una clase `Cita` [Cita.java](demo/src/main/java/com/example/demo/Cita.java)
+
+En el archivo [JdbcCitaRepository.java](demo/src/main/java/com/example/demo/data/JdbcCitaRepository.java) vemos como hacer un `select` y un `insert` a la base de datos.
+
+Por ultimo creamos un controlador que va a usar este repositorio [CitaController.java](demo/src/main/java/com/example/demo/controllers/CitaController.java).
+
+![citas](citas.png)
 

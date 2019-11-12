@@ -1,0 +1,5 @@
+CREATE TABLE cita IF NOT EXISTS (
+    nombre VARCHAR(128) NOT NULL,
+    libro VARCHAR(128) NOT NULL,
+    texto VARCHAR(4096) NOT NULL
+);
