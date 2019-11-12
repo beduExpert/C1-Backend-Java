@@ -20,3 +20,5 @@ Una vez que gradle este listo agregaremos archivos [application.properties](demo
 
 Una vez hecha esta configuración podemos correr los tests desde el IDE desde el archivo [DemoApplicationTests.java](demo/src/test/java/com/example/demo/DemoApplicationTests.java)
 
+![tests](tests.png)
+
