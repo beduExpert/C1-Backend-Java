@@ -1,11 +1,8 @@
-
-`Desarrollo Web` > `Backend Java`
-
 ## JavaBeans, Anotaciones y Logging 
 
 ### OBJETIVOS 
 
-- Que el alumno al finalizar la sesion aprenda como los JavaBeans se manejan mediante anotaciones y su uso es fundamental para el desarrollo de aplicaciones que usan el paradigma de inyección de dependencias.
+- Usarás los conceptos de anotaciones, logeo, inyección de dependencias y contenedores para interactuar con un sistema de bases de datos.
 
 #### ORGANIZACION DE LA CLASE 
 
@@ -13,4 +10,8 @@
 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
 
