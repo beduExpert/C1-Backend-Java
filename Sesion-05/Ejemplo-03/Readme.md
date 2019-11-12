@@ -22,3 +22,5 @@ Una vez hecha esta configuración podemos correr los tests desde el IDE desde el
 
 ![tests](tests.png)
 
+Como podemos notar se cargaron las citas del archivo de pruebas y no las de la aplicación.
+
