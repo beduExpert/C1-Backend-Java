@@ -12,7 +12,7 @@ El codigo del ejemplo 2 agregando la dependencia de `H2 Database` en el `applica
 
 Usar la misma base de datos que se usa para la aplicación y para las pruebas no es recomendable por muchas razones así que usaremos una base de datos ligera y desechable para nuestras pruebas. En este caso usaremos H2 para pruebas y PostgreSQL para la aplicación.
 
-Comenzando con el ejemplo 2 como base agregamos la dependencia a H2 pero sólo para pruebas. Esto lo logramos modificando el archivo [build.gradle](build.gradle)
+Comenzando con el ejemplo 2 como base agregamos la dependencia a H2 pero sólo para pruebas. Esto lo logramos modificando el archivo [build.gradle](demo/build.gradle)
 
 ![gradle](deps.png)
 
