@@ -1,28 +1,21 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## POST Request
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Hacer una petición con el método `POST`
+
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+El código del ejemplo 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Ahora vamos a hacer una petición `POST` vamos a usar un servicio como prueba que lo único que hace es devolver la información que le mandamos con el método `POST` [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![post](post.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+Para mandar la información usaremos un objeto así como hicimos cuando recibimos información, en este caso como es el mismo tipo de información solo hace falta hacer una clase [Informacion.java](demo/src/main/java/com/example/demo/Informacion.java) la cual anotamos con `@Data`.
 
-![imagen](https://picsum.photos/200/300)
-
+El ejemplo de la petición `POST` la hacemos una tarea programada [TareaProgramada.java](demo/src/main/java/com/example/demo/TareaProgramada.java)
 
