@@ -1,16 +1,15 @@
-
-`Desarrollo Web` > `Backend Java`
-
 ##  JNDI y tipos de EJBs 
 
 ### OBJETIVOS 
 
-- Que el alumno conozca al finalizar la sesion los diferentes tipos de EJBs nos ayudará a elegir el mas adecuado a la hora de desarrollar aplicaciones.
+Usar los temas aprendidos en la primer mitad del curso para consumir APIs REST.
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
 
