@@ -1,28 +1,20 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## GET Request
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Aprender los casos comunes para hacer peticiones `GET`
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+El código del ejemplo 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Vamos a hacer una tarea programada que haga peticiones `GET` y reporte algo de información.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![reporte](reporte.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+En la clase [TareaProgramada.java](demo/src/main/java/com/example/demo/TareaProgramada.java) el método `getBooks()` tenemos un ejemplo de una petición GET sin argumentos y en el método `getTicker()` tenemos una petición que toma argumentos.
 
-![imagen](https://picsum.photos/200/300)
-
+Notemos las clases [TickerResponse.java](demo/src/main/java/com/example/demo/TickerResponse.java) y [Ticker.java](demo/src/main/java/com/example/demo/Ticker.java), usamos estas clases para parsear la respuesta y usamos la anotación `@Data` de Lombok para generar los setters/getters necesarios y los metodos `toString()` que los convierten a cadenas.
 
