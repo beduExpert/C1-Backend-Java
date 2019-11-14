@@ -1,28 +1,20 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Peticiones GET
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Servir peticiones `GET` con y sin parametros
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Un proyecto de spring boot creado con initializr y las dependencias `Lombok` y `Spring Web`
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Con el proyecto abierto en el IDE vamos a crear un controlador nuevo [MiControlador.java](demo/src/main/java/com/example/demo/MiControlador.java). Lo anotamos con `@RestController` y con `@RequestMapping(produces = {"application/json"})` y ligamos métodos con rutas con la anotación `@GetMapping`.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Vamos a trabajar con objetos de java pero como le indicamos a spring que queremos regresar `JSON` se hará cargo de hacer la conversión.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+Una vez corramos la aplicación podemos hacer peticiones `GET` usando nuestro navegador y visitando la ruta adecuada. Por ejemplo para la ruta `/saluda/Vicfred` visitamos `http://localhost:8080/saluda/Vicfred`.
 
-![imagen](https://picsum.photos/200/300)
-
+![saluda](saluda.png)
 
