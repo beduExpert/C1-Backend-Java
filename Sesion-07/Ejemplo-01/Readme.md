@@ -10,7 +10,7 @@ Un proyecto de spring boot creado con initializr y las dependencias `Lombok` y `
 
 #### DESARROLLO
 
-Con el proyecto abierto en el IDE vamos a crear un controlador nuevo [MiControlador.java](demo/src/main/java/com/example/demo/MiControlador.java). Lo anotamos con `@RestController` y con `@RequestMapping(produces = {"application/json"})` y ligamos métodos con rutas con la anotación `@GetMapping`.
+Con el proyecto abierto en el IDE vamos a crear un controlador nuevo [MiControlador.java](demo/src/main/java/com/example/demo/MiControlador.java). Lo anotamos con `@RestController` y con `@RequestMapping(produces = {"application/json"})` y ligamos métodos con rutas con la anotación `@GetMapping`. Notemos como podemos ligar variables a ciertos elementos de la ruta.
 
 Vamos a trabajar con objetos de java pero como le indicamos a spring que queremos regresar `JSON` se hará cargo de hacer la conversión.
 
