@@ -1,16 +1,15 @@
-
-`Desarrollo Web` > `Backend Java`
-
 ## EJB stateful y exposición como servicio 
 
 ### OBJETIVOS 
 
-- Que el alumno aprenda a exponer como servicios aplicaciones para que otras partes de la aplicación u otras aplicaciones consuman datos y servicios.
+Integrar todo los conceptos aprendidos para hacer una aplicación completa que haga consultas a una api, usar la base de datos y exponer los datos procesados por una api.
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
 

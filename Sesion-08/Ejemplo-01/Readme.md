@@ -1,28 +1,30 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Obtener datos de una api
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Obtener datos de una api para posteriormente guardarlos, procesarlos y exponerlos.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Un proyecto de spring boot creado usando initializr con las dependencias `Lombok` y `Spring Web`
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Vamos a obtener los datos de las transacciones mas recientes de un exchange de criptomonedas [Binance](https://www.binance.com/en), la documentación de su API la podemos encontrar en [Documentacion](https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md).
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+El endpoint que nos da esta información es [Recent trades list](https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md#recent-trades-list) el cual no dice la ruta y los parametros que necesita nuestra petición.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+Vamos a obtener los datos cada 5 minutos, para esto usaremos una tarea programada en la clase [Colector.java](demo/src/main/java/com/example/demo/Colector.java).
 
-![imagen](https://picsum.photos/200/300)
+Notemos la inyección de la dependencia `RestTemplate` con `@Autowired` la cual se registró en la clase [ProveoBeans.java](demo/src/main/java/com/example/demo/ProveoBeans.java), también notemos que para parsear la respuesta en `JSON` que nos regresa la petición usamos una clase de java que nosotros creamos [Transaccion.java](demo/src/main/java/com/example/demo/Transaccion.java).
 
+El objetivo es guardar esta información en una base de datos, procesarla y exponerla pero por ahora para comprobar que recibimos y parseamos bien la información solo logearemos los precios usando `log.info` el cual obtuvimos con la anotación `@Slf4j`.
+
+También por ahora configuramos el nivel de logeo de toda la aplicación y el de nuestras clases para que nos muestre solo información que consideramos útil, esto lo hacemos en el archivo [application.properties](demo/src/main/resources/application.properties).
+
+```
+logging.level.root=ERROR
+logging.level.com.example.demo=INFO
+```
+![precios](consulta.png)
 
