@@ -6,10 +6,10 @@ Integrar todo los conceptos aprendidos para hacer una aplicación completa que h
 
 #### ORGANIZACION DE LA CLASE 
 
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
-	- [Ejemplo 03](Ejemplo-03)
-	- [Reto 03](Reto-03)
+- [Ejemplo 01](Ejemplo-01)
+- [Reto 01](Reto-01)
+- [Ejemplo 02](Ejemplo-02)
+- [Reto 02](Reto-02)
+- [Ejemplo 03](Ejemplo-03)
+- [Reto 03](Reto-03)
 
