@@ -1,28 +1,24 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Guardar los datos en una base de datos
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Guardar los datos obtenidos en el ejemplo 1 en una base de datos
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+El código del ejemplo 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Vamos a guardar los datos que obtuvimos en el ejemplo 1 en una base de datos.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+En este ejemplo vamos a usar la base de datos embebida en memoria `H2` pero se puede usar un sistema de bases de datos como `PostgreSQL` configurandolo como se hizo en el ejemplo 2 de la sesión 5.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+En [Repositorio.java](demo/src/main/java/com/example/demo/data/RepositorioImpl.java) implementamos la interface [Repositorio.java](demo/src/main/java/com/example/demo/data/Repositorio.java) con la cual accederemos a la base de datos. Notemos que modelamos la clase [Transaccion.java](demo/src/main/java/com/example/demo/data/Transaccion.java) deacuerdo a nuestra base de datos [](demo/src/main/resources/schema.sql). Usamos este script de sql para crear la tabla de la base de datos, spring lee este archivo y lo ejecuta al cargar.
 
-![imagen](https://picsum.photos/200/300)
+Una vez que tenemos esta clase de repositorio la anotamos con `@Repository` para que spring la registre en su contenedor como un bean y la inyectamos en nuestro controlador [Colector.java](demo/src/main/java/com/example/demo/Colector.java).
 
+Por ahora solo guardamos las transacciones pero en el siguiente ejemplo vamos a usar también el metodo `obtenerTransacciones` que ya implementamos.
+
+![spring](spring.png)
 
