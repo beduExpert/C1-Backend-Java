@@ -1,28 +1,18 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Peticiones DELETE
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Manejar una petición `DELETE` y regresar un código de respuesta.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Un proyecto de spring boot creado con initializr con las dependencias `Lombok` y `Spring Web`
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usamos el método `DELETE` para manejar peticiones que tienen que ver con borrar ciertos datos, en este caso solo la recibimos y como para este proyecto no tenemos configurada una base de datos o algo que borrar solo lo logeamos. Notemos que usamos el parametro `code` para regresar un código de respuesta. [MiControlador.java](demo/src/main/java/com/example/demo/MiControlador.java)
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Podemos usar de nuevo `postman` para hacer una petición `DELETE`.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
-
-![imagen](https://picsum.photos/200/300)
-
+![response](response.png)
 
