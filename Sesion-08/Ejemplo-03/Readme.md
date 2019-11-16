@@ -1,28 +1,18 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Procesar los datos y exponerlos por una api rest
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Procesar los datos obtenidos y exponer el resultado por medio de una api rest.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+El código del ejemplo 2
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Con los precios que obtuvimos en el ejemplo 1 y guardamos en el ejemplo 2 vamos a calcular el precio promedio y expondremos este resultado mediante una api rest en el endpoint `/promedio` con el método `GET` para esto creamos [MiControlador.java](demo/src/main/java/com/example/demo/MiControlador.java).
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Podemos consultar este endpoint usando el navegador web visitando `http://localhost:8080/promedio`.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
-
-![imagen](https://picsum.photos/200/300)
-
+![endpoint](endpoint.png)
 
