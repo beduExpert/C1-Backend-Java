@@ -1,29 +1,18 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## JDBC con PostgreSQL
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Modificar el ejemplo 2 para:
+
+- Crear una tabla llamada `libro` con columnas: `titulo` y `autor` por medio de `schema.sql`
+- Insertar algunos valores a esta tabla por medio de `data.sql`
+- Hacer una interface y una implementación para acceder a esta tabla como se hizo con `CitaRepository.java`, `JdbcCitaRepository.java` y `Cita.java`
+- Modificar `CitaController.java` para que imprima los datos obtenidos mediante la interface hecha en el paso anterior.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El ejemplo 2 funcionando y corriendo, en particular se necesita tener configurado postgreSQL.
 
-#### DESARROLLO
+#### Solución
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+Ver la carpeta [solucion][solucion]
