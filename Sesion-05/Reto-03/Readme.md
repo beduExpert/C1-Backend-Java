@@ -1,29 +1,18 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## La base de datos de pruebas
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Comprobar que la base de datos de pruebas sea diferente a la base de datos usada en la aplicación principal
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El codigo del ejemplo 3
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Agregar datos de citas en el `data.sql` de `test/resources`, correr `DemoApplicationTests.java` y ver que los datos impresos sean distintos a los que se cargan en el `data.sql` de `main/resources`
 
-<details>
+#### Solución
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 
