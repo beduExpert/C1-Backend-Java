@@ -1,29 +1,20 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## JDBC con bases de datos embebidas
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Configurar spring boot para usar las bases de datos embebidas Derby o HSQL
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+Un proyecto de spring boot creado con initializr con las dependencias `JDBC API` y `Lombok`
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Así como en el ejemplo 1 usamos la base de datos `H2` también tenemos otras alternativas como una base de datos embebidas, entre ellas estan `Derby` y `HSQL`.
 
-<details>
+Usar initializr para usar alguna de estas bases de datos en lugar de `H2`.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+#### Solución
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver las carpetas [solucion1](solucion1) y [solucion2](solucion2)
 
