@@ -1,29 +1,18 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Procesar los datos y exponerlos por una api rest
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Exponer los datos de la base de datos obtenidos en el reto 2 por medio de una api.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El reto 2
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Obtener los datos obtenidos y guardados en el reto 2 por medio del metodo `obtenerNumeroTrades` y exponerlos en el endpoint `/numeroTrades` por el método `GET`. Tomar el ejemplo 3 para hacerlo de manera similar.
 
-<details>
+#### Solución
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver el archivo `MiControlador.java` en la carpeta [solucion](solucion)
 

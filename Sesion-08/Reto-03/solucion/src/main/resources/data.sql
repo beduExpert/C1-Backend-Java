@@ -1,0 +1,1 @@
+INSERT INTO informacion (numeroTrades) VALUES (0);
