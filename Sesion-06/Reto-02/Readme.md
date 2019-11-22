@@ -1,29 +1,18 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## GET Request
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Hacer una petición `GET` con parametros.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El código del ejemplo 2
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usar el código del ejemplo 2 como base y modificarlo para hacer una tarea programada que haga una petición `GET` a la url base: `https://jsonplaceholder.typicode.com` al endpoint `/posts` y con el parametro `userId` con el valor 1. Ver el ejemplo 1 para ver como construir la url y no construirla manualmente. Logear algo de la información obtenida para comprobar.
 
-<details>
+#### Solución
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 
