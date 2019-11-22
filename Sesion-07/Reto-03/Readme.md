@@ -12,6 +12,8 @@ El ejemplo 3
 
 Agregar un endpoint `/cita/{id}` por el método `DELETE` y que tome un entero id y haga un log que diga que se borro la cita con este id.
 
+Usar `POSTMAN` o similar para hacer la petición `DELETE`
+
 #### Solución
 
 Ver la carpeta [solucion](solucion)
