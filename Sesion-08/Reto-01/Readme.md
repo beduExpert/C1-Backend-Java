@@ -16,3 +16,7 @@ El código del ejemplo 3
 
 - Logear `count` dentro de la tarea programada
 
+#### Solución
+
+Ver el archivo `Colector.java` en la carpeta [solucion](solucion)
+
