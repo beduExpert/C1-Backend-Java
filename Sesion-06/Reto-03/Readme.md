@@ -1,29 +1,20 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## POST Request
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Hacer una petición por el método `POST` para mandar información
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El código del ejemplo 3
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+- Crear una clase que modele la información que queremos mandar con varios campos, por ejemplo un numero de identificación y una cadena con un mensaje.
 
-<details>
+- Modificar la tarea programada para que mande un objeto de la clase creada a la url `https://jsonplaceholder.typicode.com/posts` con el método `POST` (usando el método `postForObject` de restTemplate), recibir la respuesta e imprimirla.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+#### Solución
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 
