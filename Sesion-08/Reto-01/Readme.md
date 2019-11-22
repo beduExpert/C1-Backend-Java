@@ -1,29 +1,18 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Obtener datos de una api
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Obtener datos de la api de binance
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El código del ejemplo 3
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+- Hacer una clase que modele la información recibida por el endpoint [/api/v3/ticker/24hr](https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md#24hr-ticker-price-change-statistics).
 
-<details>
+- Modificar el código del ejemplo 3 en el archivo `Colector.java` para agregar una tarea programada que cada 10 segundos haga una peticion `GET` al endpoint [/api/v3/ticker/24hr](https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md#24hr-ticker-price-change-statistics) con `symbol` igual a `BTCUSDT`.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+- Logear `count` dentro de la tarea programada
 
