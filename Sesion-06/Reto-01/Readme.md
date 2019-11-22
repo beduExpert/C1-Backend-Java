@@ -1,29 +1,22 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Spring RestTemplate
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Configurar RestTemplate y usarla para hacer una petición `GET`
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El código del ejemplo 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+- Modificar el código del ejemplo 1 para hacer una petición `GET` a la url `https://jsonplaceholder.typicode.com/posts`.
 
-<details>
+- Visitar esta URL con el navegador para ver la estructura de la respuresta y hacer una clase para modelarla.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+- Pista: Como la respuesta es una lista podemos usar un arreglo de java para recibir la respuesta y usar un arreglo de elementos de la clase creada en el paso anterior.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
+#### Solución
 
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 
