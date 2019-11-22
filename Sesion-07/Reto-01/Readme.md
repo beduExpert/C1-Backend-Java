@@ -1,29 +1,22 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Peticiones GET
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Hacer dos endpoints `GET`, uno que sirva una petición sin parametros y uno con parametros.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El código del ejemplo 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Modificar el código del ejemplo 1 para:
 
-<details>
+Hacer un endpoint `/adios` que reciba peticiones `GET` y que regrese un objeto `Cita` similar al endpoint `/`
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+Hacer un endpoint `/despide/{nombre}` que reciba peticiones `GET` y un nombre como parametro y regrese un objeto `Cita` que en el texto tenga `adios {nombre}`, similar al endpoint `/saluda/{nombre}`.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
+#### Solución
 
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 
