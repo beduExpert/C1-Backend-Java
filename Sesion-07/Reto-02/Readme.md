@@ -1,29 +1,20 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Peticiones POST
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Hacer un endpoint que sirva peticiones `POST`
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El código del ejemplo 2
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Agregar un endpoint `/adios` que regrese un objeto de la clase `Peticion` y tome como parametro un objeto de la clase `Cita` y que use el autor de la petición en la respuesta.
 
-<details>
+Usar un programa como `POSTMAN` o similar para poder mandar el objeto en formato JSON.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+#### Solución
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
+Ver la carpeta [solucion](solucion)
 

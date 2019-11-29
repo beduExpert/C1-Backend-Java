@@ -1,29 +1,24 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Guardar los datos en una base de datos
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+Guardar los datos obtenidos en el reto 1 en una base de datos
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+El reto 1
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Modificar el reto 1 y basarse en el ejemplo 2 para lo siguiente:
 
-<details>
+- Agregar los métodos `void guardarNumeroTrades(Informacion informacion)` y `Informacion obtenerNumeroTrades()` a la interface `Repositorio.java`
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+- Implementar estos métodos en `RepositorioImpl.java` basandose en los metodos del ejemplo 2
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
+- Usar el método para guardar en `Colector.java` la información obtenida en el reto 1
 
-![imagen](https://picsum.photos/200/300)
+#### Solución
+
+Ver el los archivos `Informacion.java`, `Respotirio.java`, `RepositorioImpl.java` y `Colector.java` en la carpeta [solucion](solucion)
 
