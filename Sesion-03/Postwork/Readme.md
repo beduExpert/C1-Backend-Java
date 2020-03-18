@@ -1,29 +1,15 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork Sesión 03
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Hacer una interface, una clase que implemente esa interfaz y una factory como se realizaron en el curso. Además de eso hacer una prueba para verificar que la implementación funciona correctamente.
 
-#### REQUISITOS
+#### Instrucciones
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. 
+A continuación se enumeran las actividades a realizar:
 
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
-
+- Crea una interface que define una funcionalidad
+- Implementar una clase que implemente esa interfaz
+- Implementar una factory para esta interfaz
+- Crear una prueba para verificar que nuestra implementación funciona correctamente

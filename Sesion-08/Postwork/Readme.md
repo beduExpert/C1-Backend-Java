@@ -1,29 +1,20 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork Sesión 08
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Integrar todas lo aprendido en las sesiones a nuestro proyecto final
 
-#### REQUISITOS
+#### Instrucciones
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. 
 
-#### DESARROLLO
+Ahora que tenemos algo de funcionalidad en nuestro proyecto personal vamos a exponer esta funcionalidad mediante una API REST
 
-Agrega las instrucciones generales del ejemplo o reto
+- Código limpio
+- Comentarios
+- Patrones de diseño
+- Uso de loggeo con lombok para reportar todo lo que hace nuestra aplicación
 
-<details>
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
 
 

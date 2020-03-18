@@ -1,29 +1,20 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork Sesión 06
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Consumir algún servicio externo que nos provea de funcionalidad por medio de una API REST
 
-#### REQUISITOS
+#### Instrucciones
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. 
 
-#### DESARROLLO
+A continuación se enumeran las actividades a realizar:
 
-Agrega las instrucciones generales del ejemplo o reto
+- Buscar algún servicio que nos provea una API REST e integrarla a nuestro proyecto personal
+- Consumir datos mediante peticiones GET y POST usando RestTemplate como se hizo en la sesión
+- Procesar estos datos e integrarlos a nuestro proyecto
+- De ser necesario guardar los datos obtenidos y procesados en la base de datos
+- Usar el logger de lombok para reportar cada paso que se realiza
 
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
 
 

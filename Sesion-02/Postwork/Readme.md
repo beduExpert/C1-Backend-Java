@@ -1,29 +1,19 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork Sesión 02
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Realizar el cálculo de promedios a través de múltiples hilos en tu proyecto personal
 
-#### REQUISITOS
+Agregar starters de spring boot y dependencias necesarias para tu proyecto desde algún repositorio como el de maven.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Por ejemplo podemos agregar dependencias para un sitio web que use una base de datos: Spring Web, JDBC API, Lombok y PostgreSQL
 
-#### DESARROLLO
+![](img/image3.png)
 
-Agrega las instrucciones generales del ejemplo o reto
+#### Instrucciones
 
-<details>
+Entrar al sitio web de spring initializr y seleccionar las dependencias adecuadas que se ajusten a nuestro proyecto personal. En caso de usar un sistema de bases de datos podemos hacer que nuestro proyecto de spring de java se conecte a esté por medio del application.properties como se mostró en esta sección.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Una vez seleccionadas las dependencias y opciones de nuestro proyecto podemos descargar un archivo comprimido y despues de descomprimirlo abrirlo en IntelliJ IDEA.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
-
+![](img/image1.png)
