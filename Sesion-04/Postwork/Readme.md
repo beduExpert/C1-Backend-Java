@@ -1,29 +1,15 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork Sesión 04
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Practicar el uso de los procesadores de anotaciones en java y usarlo en nuestro proyecto para logear.
 
-#### REQUISITOS
+#### Instrucciones
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. 
 
-#### DESARROLLO
+A continuación se enumeran las actividades a realizar:
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+- Logear todas las acciones que haga nuestra aplicación usando lombok.
+- Usar lombok para generar los getters/setters de nuestras clases de manera automática.
 

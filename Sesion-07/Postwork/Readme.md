@@ -1,29 +1,18 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork Sesión 07
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Exponer funcionalidad de nuestro proyecto personal por medio de una API REST para que pueda ser consumida de manera programática.
 
-#### REQUISITOS
+#### Instrucciones
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. 
 
-#### DESARROLLO
+Ahora que tenemos algo de funcionalidad en nuestro proyecto personal vamos a exponer esta funcionalidad mediante una API REST
 
-Agrega las instrucciones generales del ejemplo o reto
+- Hacer endpoints que correspondan a las funcionalidades de nuestra aplicación. Por ejemplo si nuestra aplicación tiene una función que saluda hacer un endpoint /saluda.
+- Dependiendo de que tipo de funcionalidad queramos exponer decidir si el método de estos endpoints deberían ser GET, POST o algún otro.
 
-<details>
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
 
 

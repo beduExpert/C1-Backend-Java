@@ -1,29 +1,22 @@
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork Sesión 01
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Crear la estructura del proyecto de Spring Boot que usaremos para la creación del proyecto personal usando la página [https://start.spring.io/](https://start.spring.io/)
 
-#### REQUISITOS
+#### Instrucciones
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuación se enumeran las actividades a realizar.
+
 
 #### DESARROLLO
 
 Agrega las instrucciones generales del ejemplo o reto
 
-<details>
+- Entrar a la pagina de Spring Initializr https://start.spring.io/
+- Seleccionar Java como lenguaje y la versión 2.2.x de Spring Boot
+- Desplegar el menú de opciones y seleccionar la versión 8 de Java
+- Generar y descargar el archivo comprimido con el proyecto
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
 
 
