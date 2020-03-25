@@ -2,8 +2,6 @@
 
 ### OBJETIVO
 
-Realizar el cálculo de promedios a través de múltiples hilos en tu proyecto personal
-
 Agregar starters de spring boot y dependencias necesarias para tu proyecto desde algún repositorio como el de maven.
 
 Por ejemplo podemos agregar dependencias para un sitio web que use una base de datos: Spring Web, JDBC API, Lombok y PostgreSQL
