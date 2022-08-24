@@ -5,6 +5,7 @@
 ### OBJETIVOS 
 
 - Entender que son las API tanto en el contexto de librerias como APIs web y conocer las APIs mas comunes que nos ofrece J2EE.
+- Java 11
 
 #### ORGANIZACION DE LA CLASE 
 
