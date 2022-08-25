@@ -7,7 +7,7 @@
 #### REQUISITOS
 
 1. Un proyecto de spring boot creado con spring initializr
-2. Conocer el concepto de anotaciones en Java
+2. Conocer el concepto de anotaciones en Java 11
 
 #### DESARROLLO
 
