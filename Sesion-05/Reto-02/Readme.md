@@ -1,17 +1,16 @@
-## JDBC con PostgreSQL
+## La base de datos de pruebas
 
 ### OBJETIVO 
 
-Modificar el ejemplo 2 para:
-
-- Crear una tabla llamada `libro` con columnas: `titulo` y `autor` por medio de `schema.sql`
-- Insertar algunos valores a esta tabla por medio de `data.sql`
-- Hacer una interface y una implementación para acceder a esta tabla como se hizo con `CitaRepository.java`, `JdbcCitaRepository.java` y `Cita.java`
-- Modificar `CitaController.java` para que imprima los datos obtenidos mediante la interface hecha en el paso anterior.
+Comprobar que la base de datos de pruebas sea diferente a la base de datos usada en la aplicación principal
 
 #### REQUISITOS 
 
-El ejemplo 2 funcionando y corriendo, en particular se necesita tener configurado postgreSQL.
+El codigo del ejemplo 3
+
+#### DESARROLLO
+
+Agregar datos de citas en el `data.sql` de `test/resources`, correr `DemoApplicationTests.java` y ver que los datos impresos sean distintos a los que se cargan en el `data.sql` de `main/resources`
 
 #### Solución
 

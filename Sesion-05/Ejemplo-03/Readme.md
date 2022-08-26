@@ -1,26 +1,31 @@
-## La base de datos en pruebas
+## JDBC con PostgreSQL
 
 ### OBJETIVO
 
-- Usar una base diferente en pruebas
+- Usar una base de datos PostgreSQL con spring.
 
 #### REQUISITOS
 
-El codigo del ejemplo 2 agregando la dependencia de `H2 Database` en el `application.properties`
+Tener PostgreSQL configurando y corriendo.
+
+Un proyecto de spring boot creado con initializr usando las dependencias `JDBC API`, `PostgreSQL Driver` y `Lombok`.
+
 
 #### DESARROLLO
 
-Usar la misma base de datos que se usa para la aplicación y para las pruebas no es recomendable por muchas razones así que usaremos una base de datos ligera y desechable para nuestras pruebas. En este caso usaremos H2 para pruebas y PostgreSQL para la aplicación.
+Ahora usaremos un sistema de bases de datos mas robusto `PostgreSQL`, para esto es necesario primero instalarlo en tu plataforma y notar el puerto en el que corre, el usuario y la contraseña.
 
-Comenzando con el ejemplo 2 como base agregamos la dependencia a H2 pero sólo para pruebas. Esto lo logramos modificando el archivo [build.gradle](demo/build.gradle)
+Vamos a usar estos datos para decirle a spring sobre el servidor de PostgreSQL en el archivo [configuration.properties](demo/src/main/resources/application.properties).
 
-![gradle](deps.png)
+Una vez abierto el proyecto en nuestro IDE podemos definir el esquema de la base de datos en el archivo [schema.sql](demo/src/main/resources/schema.sql) e insertar datos con el archivo [data.sql](demo/src/main/resources/data.sql). Podemos configurar esto poniendo el nivel del logeo en `DEBUG` en el archivo [application.properties](demo/src/main/resources/application.properties)
 
-Una vez que gradle este listo agregaremos archivos [application.properties](demo/src/test/resources/application.properties), [data.sql](demo/src/test/resources/data.sql) y [schema.sql](demo/src/test/resources/schema.sql) en el directorio [demo/src/test/resources/](demo/src/test/resources/). Estos archivos toman prioridad sobre los archivos de la aplicación cuando corremos las pruebas y de esta manera no modificaremos por accidente los datos de la aplicación.
+Una vez configurada la base de datos podemos hacer uso de ella mediante JdbcTemplate. Antes de eso hacemos una interface para que nuestra aplicación no dependa de una implementación en particular y haremos una implementación de esta interface usando JdbcTemplate como podemos ver en [data](demo/src/main/java/com/example/demo/data).
 
-Una vez hecha esta configuración podemos correr los tests desde el IDE desde el archivo [DemoApplicationTests.java](demo/src/test/java/com/example/demo/DemoApplicationTests.java)
+Para trabajar con JdbcTemplate de manera comoda creamos una clase `Cita` [Cita.java](demo/src/main/java/com/example/demo/Cita.java)
 
-![tests](tests.png)
+En el archivo [JdbcCitaRepository.java](demo/src/main/java/com/example/demo/data/JdbcCitaRepository.java) vemos como hacer un `select` y un `insert` a la base de datos.
 
-Como podemos notar se cargaron las citas del archivo de pruebas y no las de la aplicación.
+Por ultimo creamos un controlador que va a usar este repositorio [CitaController.java](demo/src/main/java/com/example/demo/controllers/CitaController.java).
+
+![citas](citas.png)
 
